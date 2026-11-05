@@ -1,0 +1,148 @@
+{
+  "_sobre": "Taxonomia inicial do banco de questões. Carregada na primeira abertura da aba Questões; depois cada aluno edita a própria cópia. Campos de tópico 'concursos' e 'pular' começam vazios de propósito.",
+  "concursos": {
+    "EFOMM": [
+      "Matemática",
+      "Física",
+      "Português",
+      "Inglês",
+      "Redação"
+    ],
+    "ITA": [
+      "Matemática",
+      "Física",
+      "Química",
+      "Português",
+      "Inglês"
+    ],
+    "IME": [
+      "Matemática",
+      "Física",
+      "Química",
+      "Português",
+      "Inglês"
+    ],
+    "EsPCEx": [
+      "Matemática",
+      "Física",
+      "Química",
+      "Português",
+      "Redação",
+      "História",
+      "Geografia",
+      "Inglês"
+    ]
+  },
+  "materias": {
+    "Matemática": [
+      "Conjuntos e lógica",
+      "Funções (afim, quadrática, modular)",
+      "Função exponencial e logaritmo",
+      "Sequências (PA e PG)",
+      "Trigonometria",
+      "Matrizes e determinantes",
+      "Sistemas lineares",
+      "Números complexos",
+      "Polinômios e equações algébricas",
+      "Análise combinatória e binômio de Newton",
+      "Probabilidade",
+      "Estatística",
+      "Matemática financeira",
+      "Geometria plana",
+      "Geometria espacial",
+      "Geometria analítica e cônicas",
+      "Vetores",
+      "Cálculo (limites, derivadas e integrais)",
+      "Teoria dos números e indução"
+    ],
+    "Física": [
+      "Cinemática",
+      "Dinâmica e leis de Newton",
+      "Trabalho e energia",
+      "Impulso e quantidade de movimento",
+      "Gravitação",
+      "Estática",
+      "Hidrostática",
+      "Movimento harmônico simples",
+      "Ondas e acústica",
+      "Óptica geométrica",
+      "Termometria e calorimetria",
+      "Gases e termodinâmica",
+      "Eletrostática e capacitores",
+      "Eletrodinâmica (circuitos)",
+      "Magnetismo e indução",
+      "Física moderna"
+    ],
+    "Química": [
+      "Estrutura atômica e tabela periódica",
+      "Ligações químicas e geometria molecular",
+      "Funções inorgânicas",
+      "Reações e estequiometria",
+      "Soluções",
+      "Gases",
+      "Termoquímica",
+      "Cinética química",
+      "Equilíbrio químico e iônico",
+      "Eletroquímica",
+      "Química orgânica (funções e nomenclatura)",
+      "Isomeria e reações orgânicas",
+      "Radioatividade"
+    ],
+    "Português": [
+      "Interpretação de texto",
+      "Coesão e coerência",
+      "Discurso direto, indireto e indireto livre",
+      "Semântica (sinônimos, antônimos, parônimos)",
+      "Ortografia e acentuação",
+      "Formação de palavras",
+      "Classes de palavras",
+      "Verbos",
+      "Sintaxe e período composto",
+      "Concordância, regência e crase",
+      "Pontuação e colocação pronominal",
+      "Figuras de linguagem",
+      "Literatura e estilos de época"
+    ],
+    "Inglês": [
+      "Interpretação de texto",
+      "Vocabulário (cognatos, falsos cognatos, idioms)",
+      "Phrasal verbs",
+      "Tempos verbais",
+      "Modais e voz passiva",
+      "Condicionais e discurso indireto",
+      "Orações relativas e conectivos",
+      "Pronomes, artigos e preposições",
+      "Substantivos, adjetivos e advérbios"
+    ],
+    "Redação": [
+      "Estrutura do texto dissertativo-argumentativo",
+      "Tema e tese",
+      "Introdução",
+      "Desenvolvimento",
+      "Conclusão",
+      "Coesão e coerência",
+      "Repertório e temas atuais"
+    ],
+    "História": [
+      "Brasil Colônia",
+      "Brasil Império",
+      "Brasil República até 1930",
+      "Era Vargas",
+      "Ditadura militar e redemocratização",
+      "Antiguidade e Idade Média",
+      "Idade Moderna",
+      "Idade Contemporânea",
+      "Guerras mundiais e Guerra Fria"
+    ],
+    "Geografia": [
+      "Cartografia",
+      "Geologia e relevo",
+      "Clima e vegetação",
+      "Hidrografia",
+      "População e urbanização",
+      "Economia e agropecuária",
+      "Geopolítica",
+      "Meio ambiente"
+    ]
+  }
+}
