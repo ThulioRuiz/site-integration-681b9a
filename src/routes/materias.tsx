@@ -144,7 +144,12 @@ function MateriasPage() {
                     <Bar value={tp.pct} color="var(--status-goal)" />
                   </div>
                 </div>
-                {s.notes && !isOpen && <p className="mt-3 line-clamp-2 text-sm text-muted-foreground">{s.notes}</p>}
+                {s.notes?.trim() && (
+                  <div className="mt-3 rounded-md border border-border/70 bg-muted/30 px-3 py-2">
+                    <p className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">Observações</p>
+                    <p className="whitespace-pre-wrap break-words text-sm text-foreground/85">{s.notes}</p>
+                  </div>
+                )}
                 <Button variant={isOpen ? "secondary" : "outline"} size="sm" className="mt-4 w-full" aria-expanded={isOpen}
                   onClick={() => setOpen(isOpen ? null : s.id)}>
                   <ListTree /> {isOpen ? "Fechar tópicos" : `Tópicos e subtópicos (${s.topics?.length ?? 0})`}
@@ -427,7 +432,7 @@ function SubjectDialog({ subject, children }: { subject?: Subject; children: Rea
           </div>
           <div className="space-y-2">
             <Label>Observações</Label>
-            <Textarea rows={2} value={f.notes} onChange={(e) => setF({ ...f, notes: e.target.value })} />
+            <Textarea rows={5} value={f.notes} onChange={(e) => setF({ ...f, notes: e.target.value })} />
           </div>
           <p className="flex items-center gap-2 text-xs text-muted-foreground"><Dot color={f.color} /> Prévia da cor</p>
         </div>
