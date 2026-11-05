@@ -31,7 +31,12 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       } catch {
         cb = null;
       }
-      const u = await getUser();
+      let u: User | null = null;
+      try {
+        u = await getUser();
+      } catch {
+        u = null;
+      }
       if (!active) return;
       setUser(u);
       setCallback(cb);
